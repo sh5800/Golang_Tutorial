@@ -1,0 +1,10 @@
+PUT http://localhost:8090/events/1
+content-type: application/json
+
+{
+    "name": "Diljit Dosanjh Concert",
+    "description": "A new Event",
+    "location": "Mumbai",
+    "dateTime": "2025-06-15T19:35:24Z",
+    "userId" : 99
+}
