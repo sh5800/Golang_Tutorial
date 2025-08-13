@@ -1,0 +1,9 @@
+POST http://localhost:9010/book/
+Content-Type: application/json
+
+{
+    "name": "Zero to One",
+    "author":"Peter Thiel",
+    "publication":"Penguin"
+    
+}

@@ -1,0 +1,9 @@
+PUT http://localhost:9010/book/2
+Content-Type: application/json
+
+{
+    "name": "Atomic Habits",
+    "author":"James Clear",
+    "publication":"Orion"
+    
+}
