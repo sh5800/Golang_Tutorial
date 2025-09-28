@@ -6,6 +6,7 @@ For Swagger Configuration
 * export PATH=$PATH:$(go env GOPATH)/bin (For Bash)
 * $env:PATH += ";$(go env GOPATH)\bin" (For Powershell)
 * Check for swagger version using swag --version command.
+* Install swagger dependencies in your project with go get -u github.com/swaggo/swag/cmd/swag and go get -u github.com/swaggo/http-swagger .
 * Put swagger comments on main.go file and the controllers and models as mentioned in the swagger docs.
 * Run command swag init -g ./cmd/main/main.go (swag init -g {path to main.go}).
 * Ensure main.go has the following two things imported 1. path to docs package (eg _"com.shreyash/go_inventory/v2/docs") and the import for swagger dependency (httpSwagger "github.com/swaggo/http-swagger").
