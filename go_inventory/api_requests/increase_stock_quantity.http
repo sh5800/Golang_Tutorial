@@ -1,0 +1,6 @@
+PUT http://localhost:8000/products/183/decrease
+Content-Type: application/json
+
+{
+    "stock_quantity":1
+}
