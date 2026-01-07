@@ -1,5 +1,5 @@
 package goodcode
 
 type PaymentMethod interface {
-	pay(amount float64)
+	Pay(amount float64)
 }
